@@ -12,7 +12,7 @@
 
     Dataset yang digunakan dalam proyek ini diperoleh dari TMDB (The Movie Database) melalui proses web scraping. Dataset terdiri dari 15.000 baris dan 6 kolom, dan dapat diakses melalui tautan GitHub publik berikut:
 
-    https://raw.githubusercontent.com/ilyasbrhm/Dataset/refs/heads/main/tmdb_dataset.csv
+**https://raw.githubusercontent.com/ilyasbrhm/Dataset/refs/heads/main/tmdb_dataset.csv**
 
 **Fitur Dataset:**
 
