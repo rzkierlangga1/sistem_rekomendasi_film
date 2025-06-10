@@ -150,3 +150,5 @@ Adapun output yang dihasilkan dan disimpan dari pipeline Machine Learning dalam 
     - label_encoder.pkl	= Encoder untuk mengubah label kategori (single label) jadi numerik.
     - mlb.pkl = Encoder multi-label untuk label dengan lebih dari satu kelas.
     - sistem_rekomendasi_model.h5	Model neural network hasil pelatihan, berisi arsitektur & bobot.
+
+## Pipeline Backend
