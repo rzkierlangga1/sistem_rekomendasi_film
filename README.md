@@ -5,8 +5,9 @@
 ## Tools
 
     1. Google Colab
-    2. 
-    3.
+    2. Visual Studio Code
+    3. Postman 
+    4. Railway Station (Deployment API)
 
 ## Dataset
 
