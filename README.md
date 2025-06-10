@@ -131,6 +131,8 @@ Model yang digunakan adalah Artificial Neural Network (ANN) menggunakan arsitekt
     - Menghasilkan Akurasi yang Tinggi: Dengan jumlah layer dan neuron yang memadai, ANN dapat mengungguli model klasik lainnya, terutama untuk dataset yang besar dan kompleks.
     - Daya Generalisasi Tinggi: Dengan teknik seperti dropout dan penggunaan validation set, model ANN lebih tahan terhadap overfitting dan mampu memberikan prediksi yang lebih akurat pada data baru yang belum pernah dilihat.
 
+**Perlu diingat bahwa tahapan modelling dapat berbeda-beda tergantung preferensi, tujuan, dan pendekatan dari masing-masing proyek yang dikembangkan. Pemilihan model, struktur arsitektur, parameter training, hingga metrik evaluasi bisa disesuaikan dengan karakteristik data, kebutuhan akurasi, serta kompleksitas masalah yang dihadapi.**
+
 ### 5. Evaluation
 
 Pada tahap ini, dilakukan evaluasi terhadap performa model yang telah dibuat. Beberapa metrik yang digunakan, yaitu:
