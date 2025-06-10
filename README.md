@@ -145,7 +145,7 @@ Pada tahap ini, dilakukan evaluasi terhadap performa model yang telah dibuat. Be
 
 Adapun output yang dihasilkan dan disimpan dari pipeline Machine Learning dalam proyek ini:
     
-    - dataset_fix.csv = Dataset bersih (df_cleaned)
+    - dataset_fix.csv = Dataset bersih (df_cleaned).
     - scaler.pkl = Menyimpan objek scaler untuk standarisasi fitur input.
     - label_encoder.pkl	= Encoder untuk mengubah label kategori (single label) jadi numerik.
     - mlb.pkl = Encoder multi-label untuk label dengan lebih dari satu kelas.
