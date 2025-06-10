@@ -124,7 +124,11 @@ Model yang digunakan adalah Artificial Neural Network (ANN) menggunakan arsitekt
     - Batch Size: 32
     - Validation Split: 0.2
 
-**d. Alasan memilih model ini:**
+**d. Cara Kerja Model:**
+
+    Model ini bekerja dengan memprediksi mood film berdasarkan kombinasi fitur numerikal seperti tahun rilis, rating, dan popularitas, serta fitur kategorikal berupa genre yang telah diubah menjadi bentuk one-hot encoding. Genre film terlebih dahulu dipetakan ke dalam kategori mood (seperti "Action" menjadi "Energetic"), yang kemudian diencoding menjadi label numerik dan one-hot vector. Seluruh fitur diskalakan menggunakan standardisasi sebelum dimasukkan ke dalam model neural network berarsitektur multilayer dengan aktivasi ReLU dan softmax pada output. Model dilatih menggunakan categorical crossentropy dan Adam optimizer, serta dievaluasi berdasarkan akurasi pada data validasi.
+
+**E. Alasan memilih Model ini:**
     
     - Fleksibel terhadap Berbagai Jenis Fitur: ANN mampu mengolah fitur numerik maupun kategori dan menemukan pola kompleks di antaranya, termasuk korelasi non-linear.
     - Mendukung Klasifikasi Multi-Kelas: Arsitektur softmax pada output layer menjadikan ANN sangat cocok untuk kasus klasifikasi dengan lebih dari dua kelas (seperti mood: emotional, cheerful, reflective, dll).
