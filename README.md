@@ -33,7 +33,7 @@ Pastikan semua library telah terinstal. Jalankan perintah di bawah ini untuk ins
 !pip install numpy pandas seaborn matplotlib scikit-learn tensorflow
 ``` 
 
-Libraries yang digunakan:
+**Libraries yang digunakan:**
 
 ```bash
 import numpy as np
@@ -101,18 +101,24 @@ Model yang digunakan adalah Artificial Neural Network (ANN) menggunakan arsitekt
 
 **a. Struktur Model:**
 
+![Screenshot 2025-06-10 125644](https://github.com/user-attachments/assets/61edcaf6-cfab-4bfe-9897-efd68a99bd67)
+
     - Dense(128, activation='relu') → Layer 1 (Hidden Layer 1)
     - Dropout(0.3) → Layer 2 (Dropout Layer)
     - Dense(64, activation='relu') → Layer 3 (Hidden Layer 2)
     - Dense(output, activation='softmax') → Layer 4 (Output Layer)
 
 **b. Kompilasi Model:**
-    
+
+![Screenshot 2025-06-10 125801](https://github.com/user-attachments/assets/79edcbea-76a6-44fd-b728-13447ff62dca)
+
     - Optimizer: adam
     - Loss Function: categorical_crossentropy
     - Metrik Evaluasi: accuracy
 
 **c. Proses Training Model:**   
+
+![Screenshot 2025-06-10 125842](https://github.com/user-attachments/assets/78f44440-42b7-487f-a70f-fcc7df814652)
 
     - Epochs: 20
     - Batch Size: 32
